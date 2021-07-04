@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body{
+    background-color: gainsboro;
+    font-family: 'Shadows Into Light', Arial, Helvetica, sans-serif;
+}
+/*******************                         Page Accueil                          ********************/
+
+/* Page d'acceuille */
+nav{
+    position: absolute;
+    top: 20px;
+}
+/* mettre un text-shadow */
+h1{
+    text-align: center;
+    color: #6D792E;
+    box-shadow: 4px 2px 31px 5px #6D792E;
+}
+.img{
+    width: 100%;
+}
+
+/* button play */
+button{
+    font-family: 'Shadows Into Light';
+    font-size: 25px;
+    left: 650px;
+    top: 631px;
+    position: absolute;
+    height: 48px;
+    width: 75px;
+}
+
+button:hover{
+    background-color: tomato;
+    border-radius: 20%;
+}
+
+button > p{
+    top: -20px;
+    margin: 1px;
+    color: #6D792E;
+}
+
+
+
+/*******************                         Game                       ********************/
+#game {
+    background: url('./asset/images/free-space-background-02.jpg');
+}
+
+#board {
+    position: relative;
+    width: 610px;
+    height: 500px;
+    margin: 40px auto;
+    border: 2px solid white;
+    background-color: #0F52A0;
+    display: none;
+    overflow: hidden;
+  }
+#container2{
+    position: absolute;
+    overflow: hidden;
+    height: 33px;
+    width: 35px;
+    top: 92%;
+    left: 46%;
+}
+
+
+#contenu2{
+    position: absolute;
+    width: 105px;
+    
+    
+}
+
+
+.ovnis{
+    background : url(/asset/images/ovni.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-color: yellowgreen;
+}
+
+
+.laser{
+    bottom: 35px;
+    background-color: tomato;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1px;
+    height: 9px;
+    position: absolute;
+    left: 48.77%;                      
+}
+
+
+#score {
+    position: absolute;
+      top: 365px;
+      opacity: 0.7;
+      font-size: 7em;
+      color: #ea3636;
+}
