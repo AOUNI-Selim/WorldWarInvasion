@@ -19,7 +19,27 @@ h1{
     box-shadow: 4px 2px 31px 5px #6D792E;
 }
 .img{
+    height: 60%;
     width: 100%;
+}
+.secret{
+    position: absolute;
+    top: 128%;
+    left: 13%;
+    opacity: 0.2;
+}
+.secret2{
+    position: absolute;
+    top: 19%;
+    left: 52%;
+    opacity: 0.2;
+}
+
+.secret1{
+    position: absolute;
+    top: 72%;
+    left: 80.8%;
+    opacity: 0.2;
 }
 
 /* button play */
@@ -83,7 +103,6 @@ button > p{
     background : url(/asset/images/ovni.png);
     position: absolute;
     background-size: contain;
-    background-repeat: no-repeat;
     width: 30px;
     height: 30px;
     background-color: yellowgreen;

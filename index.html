@@ -12,6 +12,7 @@
 <!-----------------------------------------------------------------            l'acceuil                  ---------------------------------------------------------------->
 <section>
     <audio src="./asset/music/main-title.mp3" loop autoplay></audio>
+    <h1>Welcome <br> to  World War : Invasion</h1>
     <nav>
         <ul>
             <li><a href="#play">Accueil</a></li>
@@ -20,28 +21,35 @@
                    title="Peek a boo" >Cheat</a></li>
         </ul>
     </nav>
-    <h1>Welcome <br> to  World War : Invasion</h1>
+   
     <div id="container">
         
         <div id="contenu" >
                 <img src="./asset/images/7MSoR.jpeg" alt="ufoInvasion" class="img" >
+                <a href="asset/images/partie1.jpg" target="_blank" class="secret">👽</a>
+                <a href="asset/images/partie2.jpg" target="_blank" class="secret1" >👽</a> 
+                <a href="/asset/images/partie3.jpg" target="_blank" class="secret2">👽</a> 
             <button id="play">
-                <p><a href="#game">Play</a></p>
+                <p><a href="#game">Play</a></p>1
             </button>
         </div>
     </div>
 </section>
 
-<!-----------------------------------------------------------------            le jeux                  ---------------------------------------------------------------->
+<!--------------------------------------------------------------                                     le jeux                  ---------------------------------------------------------------->
 <section id="game" class="img">
     
-    <div id="board" class="bord">
+    <div id="board">
         <div id="container2" class="masque">
             <img id="contenu2" class="sprite"  src="./asset/images/avion.png" alt="avionDeChasse">
         </div>  
         <div id="score">0</div>
     </div>
+    <div id="popOne"></div>
 </section>
+
+
+
 
 
 <script src="./script.js"></script>
