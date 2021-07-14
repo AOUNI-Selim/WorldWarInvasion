@@ -11,8 +11,18 @@ body{
 nav{
     position: absolute;
     top: 20px;
+    text-decoration: none;
 }
-/* mettre un text-shadow */
+li{
+   list-style-type: none;
+}
+a{
+    color: #6D792E;
+    text-decoration-line: none;
+}
+li > a{
+    text-shadow: #ea3636;
+}
 h1{
     text-align: center;
     color: #6D792E;
@@ -22,6 +32,13 @@ h1{
     height: 60%;
     width: 100%;
 }
+#al{
+    width: 12%;
+    position: absolute;
+    opacity: 0.2;
+    margin: 25% 44.5%;
+}
+
 .secret{
     position: absolute;
     top: 128%;
@@ -51,13 +68,13 @@ button{
     position: absolute;
     height: 48px;
     width: 75px;
+    text-decoration: none;
 }
 
 button:hover{
     background-color: tomato;
     border-radius: 20%;
-}
-
+} 
 button > p{
     top: -20px;
     margin: 1px;

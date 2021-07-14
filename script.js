@@ -6,14 +6,14 @@
 window.onload = function () { 
     var saisie = null;
     if (saisie == null || saisie == ' ') {    
-        saisie = Number(prompt('Bienvenu dans mon Cv Game, je vous propose de découvrir deux jeux :\n 1- Une mise en bouche enigmatique pour découvrir 3 parties de mon cv \n 2- Un plat de resistance : tir du style Space Invaders \n\n\t\t\t\t\t👽Ammusez-vous Bien👽'));
+        saisie = Number(prompt('Bienvenu dans mon CV Game, je vous propose de découvrir deux jeux :\n 1- Une mise en bouche enigmatique pour découvrir 3 parties de mon  CV. \n 2- Un plat de resistance : jeu de tir du style Space Invaders. \n \n \t\t\t\t\t  👽Ammusez-vous Bien👽'));
      }if (saisie == 1) {
-        alert('Vous venez de faire le bon choix.Alors commençons l\'enigme !!/n/n Indice 1 : Je vous regards depuis ma fenêtre dans le Sud-Ouest./n/n Indice 2 : Je regards l\'invasion depuis mon dome depuis Sud-Est./n/n Indice 3 : Je suis tout la Haut, je traverse la ville depuis mon UFO');
+        alert('Vous venez de faire le bon choix. Alors commençons l\'enigme !!\n\nIndice 1 : Je suis dans une fenêtre au Sud-Ouest. \n\nIndice 2 : Je regarde l\'invasion depuis le dome à l\'Est.\n\nIndice 3 : Je suis tout la Haut, je traverse la ville depuis mon UFO.');
 
      } else if (saisie == 2) {
-        alert('C\'est dommage pour le 1er defis. Appeyez sur Play pour commencer le jeux.');
+        alert('C\'est dommage pour le 1er defit. Appuyez sur Play pour commencer le jeux.');
     }           
- } 
+};
 
 
 
@@ -25,7 +25,7 @@ let play = function () {
     //console.log('yup');
     document.getElementById('play').addEventListener('click',function () { 
         document.getElementById('board').style.display = 'block';
-        alert("Deplacement : ⬅️➡️ --   Tir : SpaceBar");
+        alert("Bienvenue en 2050, aprés une guerre mondiale suite un choc climatique sans précédant. Un nouveau ennemie a fait son apparition. Tous les avions sont réquisitionné pour une bataille extraordinaire.\n\n Deplacement : ⬅️➡️ --   Tir : SpaceBar");
 
 
                                      /**********************  usine a ovni qui se lance lors du click ***********************/
@@ -152,4 +152,4 @@ usineOvni = setInterval(() => {
         ovni.style.left = ovniLeft + 3 + 'px';
       }
     }
-  }, 300);
+  }, 700);
