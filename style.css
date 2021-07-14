@@ -38,7 +38,6 @@ h1{
     opacity: 0.2;
     margin: 25% 44.5%;
 }
-
 .secret{
     position: absolute;
     top: 128%;
@@ -63,14 +62,13 @@ h1{
 button{
     font-family: 'Shadows Into Light';
     font-size: 25px;
-    left: 650px;
-    top: 631px;
+    left: 691px;
+    top: 745px;
     position: absolute;
     height: 48px;
     width: 75px;
     text-decoration: none;
 }
-
 button:hover{
     background-color: tomato;
     border-radius: 20%;
@@ -97,7 +95,7 @@ button > p{
     background-color: #0F52A0;
     display: none;
     overflow: hidden;
-  }
+}
 #container2{
     position: absolute;
     overflow: hidden;
@@ -106,8 +104,6 @@ button > p{
     top: 92%;
     left: 46%;
 }
-
-
 #contenu2{
     position: absolute;
     width: 105px;

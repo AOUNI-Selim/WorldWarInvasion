@@ -6,7 +6,7 @@
 window.onload = function () { 
     var saisie = null;
     if (saisie == null || saisie == ' ') {    
-        saisie = Number(prompt('Bienvenu dans mon CV Game, je vous propose de découvrir deux jeux :\n 1- Une mise en bouche enigmatique pour découvrir 3 parties de mon  CV. \n 2- Un plat de resistance : jeu de tir du style Space Invaders. \n \n \t\t\t\t\t  👽Ammusez-vous Bien👽'));
+        saisie = Number(prompt('Bienvenu dans mon CV Game, je vous propose de découvrir deux jeux :\n 1- Une mise en bouche enigmatique pour découvrir 3 parties de mon  CV. \n 2- Un plat de resistance : jeu de tir du style Space Invaders.\n \t\t\t\t  👽Ammusez-vous Bien👽'));
      }if (saisie == 1) {
         alert('Vous venez de faire le bon choix. Alors commençons l\'enigme !!\n\nIndice 1 : Je suis dans une fenêtre au Sud-Ouest. \n\nIndice 2 : Je regarde l\'invasion depuis le dome à l\'Est.\n\nIndice 3 : Je suis tout la Haut, je traverse la ville depuis mon UFO.');
 
